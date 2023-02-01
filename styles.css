@@ -54,7 +54,7 @@ a:hover {
 }
 #head-link > a:hover {
     background-color: blue;
-    border-radius: 4px;
+        border-radius: 4px;
 }
 
 .content {
