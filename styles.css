@@ -6,7 +6,9 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
+h1 {
+    margin: 0;
+}
 
 
 body {
@@ -18,14 +20,20 @@ body {
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
 }
-
+nav {
+    border-bottom: 1px solid yellow;
+    margin-bottom: 70px;
+}
 nav >ul {
     list-style-type: none;
     margin: 15px;
     padding: 0;
     display: grid;
+
     grid-template-columns: 2fr 1fr 1fr 1fr;
+    justify-items: end;
   }
+
 nav > ul > li > a {
     text-decoration: none;
     color: white;
@@ -59,25 +67,28 @@ nav > ul > li > a:hover {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: 20px;
     padding: 20px;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    gap: 16px;
     font-style: italic;
+    text-align: center;
 }
+
 .content-header {
-    font-size: 54px;
+    font-size: 5em;
     font-style: normal;
+    justify-self: start;
 }
 .content-info {
-    border-left: 1px solid yellow;
-    border-width: 5px;
+    border-left: 4px solid yellow;
+    padding: 5px;
 }
 .miyezo >img {
 width: 100%;
 border-radius: 6px;
+}
+.miyezo {
+    display: grid;
 }
 
 .standout {
