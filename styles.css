@@ -19,14 +19,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-ul {
+nav >ul {
     list-style-type: none;
     margin: 15px;
     padding: 0;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
   }
-a {
+nav > ul > li > a {
     text-decoration: none;
     color: white;
     padding: 5px;
@@ -35,7 +35,7 @@ a {
     font-style: italic;
 }
 
-a:hover {
+nav > ul > li > a:hover {
     background-color: blue;
     transition: ease 0.5s ;
     border: 1px solid rgb(140, 218, 244);
