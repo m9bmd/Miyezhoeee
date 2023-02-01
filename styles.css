@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='4' stroke-opacity='0.56'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+a:hover {
+    background-color: blue;
+    transition: ease 0.5s ;
+    border: 1px solid rgb(140, 218, 244);
+    border-radius: 3px;
+}
+
+#head-link 
+{
+    justify-self: start;
+}
+
+
+#head-link > a {
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#head-link > a:hover {
+    border: 1px solid rgb(225, 255, 0);
+    border-radius: 4px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    gap: 16px;
+    font-style: italic;
+}
+.content-header {
+    font-size: 54px;
+    font-style: normal;
+}
+.content-info {
+    border-left: 1px solid yellow;
+    border-width: 5px;
+}
+.miyezo >img {
+width: 100%;
+border-radius: 6px;
+}
+
+.standout {
+    margin-top: 25px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.standout-header {
+    font-size: 35px;
+    color: yellow;
+}
+.standout-info {
+    display: grid;
+    background: rgba(173, 181, 189, 0.2);
+    text-align: center;
+    width: 300px;
+}
+.standout-item {
+    border-left: 10px solid yellow;
+}
+
+
+
+
+
+
+.down {
+    background-color: yellow; /* Green */
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+.down:hover {
+    color: white;
+    background-color: blue;
+    transition: ease 0.5s;
+}
+.cards-show {
+    display: grid;
+    justify-content: center;
+    justify-items: centet;
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+.cards-show > h2 {
+    font-size: 44px;
+}
+
+.card > img {
+    width: 60%;
+    border-radius: 12px;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card-info {
+    font-weight: 300;
+    font-size: 12px;
+    font-style: italic;
+}
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
