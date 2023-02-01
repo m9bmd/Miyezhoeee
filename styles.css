@@ -20,10 +20,7 @@ body {
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
 }
-nav {
-    border-bottom: 1px solid yellow;
-    margin-bottom: 70px;
-}
+
 nav >ul {
     list-style-type: none;
     margin: 15px;
@@ -84,7 +81,7 @@ nav > ul > li > a:hover {
     padding: 5px;
 }
 .miyezo >img {
-width: 100%;
+width: 95%;
 border-radius: 6px;
 }
 .miyezo {
